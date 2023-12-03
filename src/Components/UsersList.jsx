@@ -122,6 +122,7 @@ function UsersList() {
             ) {
               return user;
             }
+            return true;
           })
           .slice(pageVisited, pageVisited + itemPerPage)
           .map((user) => (
